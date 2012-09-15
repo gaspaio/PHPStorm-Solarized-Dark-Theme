@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scheme name="Solarized Dark" version="1" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="CONSOLE_FONT_SIZE" value="13" />
-  <option name="EDITOR_FONT_NAME" value="Monospaced" />
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="11" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="" />
-    <option name="CARET_COLOR" value="93a1a1" />
+    <option name="ANNOTATIONS_COLOR" value="2b36" />
+    <option name="ANNOTATIONS_MERGED_COLOR" value="" />
+    <option name="CARET_COLOR" value="dc322f" />
     <option name="CARET_ROW_COLOR" value="73642" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="2b36" />
     <option name="GUTTER_BACKGROUND" value="73642" />
-    <option name="LINE_NUMBERS_COLOR" value="839496" />
+    <option name="INDENT_GUIDE" value="" />
+    <option name="LINE_NUMBERS_COLOR" value="586e75" />
+    <option name="METHOD_SEPARATORS_COLOR" value="586e75" />
     <option name="MODIFIED_LINES_COLOR" value="" />
-    <option name="NOTIFICATION_BACKGROUND" value="" />
+    <option name="NOTIFICATION_BACKGROUND" value="fdf6e3" />
+    <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="ffffff" />
     <option name="RIGHT_MARGIN_COLOR" value="" />
-    <option name="SELECTION_BACKGROUND" value="74954" />
-    <option name="SELECTION_FOREGROUND" value="93a1a1" />
+    <option name="SELECTED_INDENT_GUIDE" value="" />
+    <option name="SELECTED_TEARLINE_COLOR" value="" />
+    <option name="SELECTION_BACKGROUND" value="fcf6e3" />
+    <option name="SELECTION_FOREGROUND" value="73642" />
+    <option name="TEARLINE_COLOR" value="73642" />
+    <option name="WHITESPACES" value="" />
   </colors>
   <attributes>
     <option name="APACHE_CONFIG.ARG_LEXEM">
@@ -180,7 +190,7 @@
     </option>
     <option name="CSS.COMMENT">
       <value>
-        <option name="FOREGROUND" value="839496" />
+        <option name="FOREGROUND" value="586e75" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" />
@@ -250,7 +260,7 @@
     </option>
     <option name="CSS.STRING">
       <value>
-        <option name="FOREGROUND" value="839496" />
+        <option name="FOREGROUND" value="2aa198" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" />
@@ -335,6 +345,26 @@
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
         <option name="EFFECT_TYPE" value="1" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="DEPRECATED_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" value="a80000" />
+        <option name="EFFECT_TYPE" value="2" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="DUPLICATE_FROM_SERVER">
+      <value>
+        <option name="FOREGROUND" />
+        <option name="BACKGROUND" value="f5f7f0" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
@@ -433,7 +463,7 @@
         <option name="FOREGROUND" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" value="cccccc" />
+        <option name="EFFECT_COLOR" value="9c6011" />
         <option name="EFFECT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" />
       </value>
@@ -740,9 +770,9 @@
     </option>
     <option name="PHP_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="268bd2" />
+        <option name="FOREGROUND" value="1fe629" />
         <option name="BACKGROUND" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" />
         <option name="EFFECT_TYPE" value="1" />
         <option name="ERROR_STRIPE_COLOR" />
@@ -840,7 +870,7 @@
     </option>
     <option name="PHP_NUMBER">
       <value>
-        <option name="FOREGROUND" value="839496" />
+        <option name="FOREGROUND" value="1a8d1c" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -890,7 +920,7 @@
     </option>
     <option name="PHP_STRING">
       <value>
-        <option name="FOREGROUND" value="839496" />
+        <option name="FOREGROUND" value="1dc622" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -1220,9 +1250,59 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d33682" />
+        <option name="FOREGROUND" value="909090" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="TWIG_BACKGROUND">
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="TWIG_BAD_CHARACTER">
+      <value>
+        <option name="FOREGROUND" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="TWIG_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="b58900" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="TWIG_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="859900" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="TWIG_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="1a8d1c" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
         <option name="EFFECT_TYPE" value="0" />
         <option name="ERROR_STRIPE_COLOR" />
@@ -1233,8 +1313,8 @@
         <option name="FOREGROUND" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="d76815" />
+        <option name="EFFECT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
@@ -1321,6 +1401,46 @@
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="268bd2" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_DSTRING">
+      <value>
+        <option name="FOREGROUND" value="1c9f1e" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_KEY">
+      <value>
+        <option name="FOREGROUND" value="859900" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_LIST">
+      <value>
+        <option name="FOREGROUND" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_STRING">
+      <value>
+        <option name="FOREGROUND" value="1c9f1e" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" />
